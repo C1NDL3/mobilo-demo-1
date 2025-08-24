@@ -55,8 +55,8 @@ jobs:
 
       - name: Test input
         run: |
-          echo: "The customer is: $CUSTOMER"
-          echo: "The operator is: $OPERATOR"
+          echo "The customer is: $CUSTOMER"
+          echo "The operator is: $OPERATOR"
         env:
           CUSTOMER: ${{ inputs.customer }}
           OPERATOR: ${{ inputs.operator_name }}
