@@ -35,7 +35,7 @@ jobs:
         run: python -V
 
       - name: Install Python dependencies
-        uses: py-actions/py-dependencies-install@4
+        uses: py-actions/py-dependency-install@4
         with:
           path: "py-upper/requirements.txt"
           update-pip: "true"
